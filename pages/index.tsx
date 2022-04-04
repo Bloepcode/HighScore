@@ -1,8 +1,11 @@
 import type { NextPage } from "next";
-import PrimaryButton from "../components/PrimaryButton";
+import PrimaryButton from "../components/buttons/PrimaryButton";
+import SecondaryButton from "../components/buttons/SecondaryButton";
 
 const Home: NextPage = () => {
-  return <PrimaryButton />;
+  return <div>
+    
+  </div>;
 };
 
 export default Home;
